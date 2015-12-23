@@ -1,3 +1,4 @@
 # HorizontalTableView
 Horizontal UITableView
-[![ScreenShot](HorizontalTableView/horizontalTable.tiff)](http://youtu.be/vt5fpE0bzSY)
+
+[![ScreenShot](https://github.com/Blyabtroi/HorizontalTableView/raw/master/horizontalTable.tiff)](https://github.com/Blyabtroi/HorizontalTableView/raw/master/HorizontalTableView.mov)
