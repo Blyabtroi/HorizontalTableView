@@ -1,4 +1,3 @@
-[![Build Status](https://travis-ci.org/Blyabtroi/HorizontalTableView.svg)](https://travis-ci.org/Blyabtroi/HorizontalTableView)
 
 # HorizontalTableView
 Horizontal UITableView which resize images in UITableViewCell while scrolling.
