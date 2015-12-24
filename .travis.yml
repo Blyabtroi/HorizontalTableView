@@ -1,4 +1,7 @@
 language: objective-c
 xcode_project: "./src/Horizontal TableView/Horizontal TableView.xcodeproj"
 xcode_scheme: "Horizontal TableView"
+osx_image: xcode7.2
 xcode_sdk: iphonesimulator9.2
+
+xctool -project ./src/Horizontal\ TableView/Horizontal\ TableView.xcodeproj -scheme Horizontal\ TableView -sdk iphonesimulator9.2 build
