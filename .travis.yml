@@ -1,9 +1,5 @@
 language: objective-c
-# xcode_project: "./src/Horizontal TableView/Horizontal TableView.xcodeproj"
-# xcode_scheme: "Horizontal TableView"
+xcode_project: "./src/Horizontal TableView/Horizontal TableView.xcodeproj"
+xcode_scheme: "Horizontal TableView"
 # osx_image: xcode7.2
 # xcode_sdk: iphonesimulator9.2
-
- 
-script:
-- xcodebuild build -scheme "Horizontal TableView" -destination 'platform=iOS Simulator,name=iPhone8,1,OS=9.2'
