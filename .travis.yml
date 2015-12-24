@@ -3,3 +3,7 @@ xcode_project: "./src/Horizontal TableView/Horizontal TableView.xcodeproj"
 xcode_scheme: "Horizontal TableView"
 osx_image: xcode7.2
 xcode_sdk: iphonesimulator9.2
+
+before_install:
+  - brew update
+  - brew upgrade xctool
