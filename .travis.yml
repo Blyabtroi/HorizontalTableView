@@ -1,4 +1,4 @@
 language: objective-c
-xcode_project: /src/Horizontal TableView/Horizontal TableView.xcodeproj # path to your xcodeproj folder
-xcode_scheme: /src/Horizontal TableView/Horizontal TableViewTests
+xcode_project: ‘/src/Horizontal TableView/Horizontal TableView.xcodeproj’ # path to your xcodeproj folder
+xcode_scheme: ‘/src/Horizontal TableView/Horizontal TableViewTests’
 osx_image: xcode7.2
