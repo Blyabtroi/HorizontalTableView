@@ -101,7 +101,7 @@ typedef enum : int{
 {
     static NSString *simpleTableIdentifier = @"HorizontalTableViewCell";
     
-    HorizontalTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:simpleTableIdentifier];
+    HorizontalTableViewCell *cell = (HorizontalTableViewCell *)[tableView dequeueReusableCellWithIdentifier:simpleTableIdentifier];
     
     if (nil == cell)
     {
@@ -165,7 +165,7 @@ typedef enum : int{
         CGRect cellRect = [tableView rectForRowAtIndexPath:path];
         cellRect = CGRectOffset(cellRect, -tableView.contentOffset.x, -tableView.contentOffset.y);
         
-        HorizontalTableViewCell *cell = [tableView cellForRowAtIndexPath:path];
+        HorizontalTableViewCell *cell = (HorizontalTableViewCell *)[tableView cellForRowAtIndexPath:path];
         CGFloat x = CGRectGetMidY(cellRect);
         CGFloat width = CGRectGetWidth(cellRect);
         
