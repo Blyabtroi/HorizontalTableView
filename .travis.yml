@@ -1,2 +1,3 @@
 language: objective-c
 xcode_project: "./src/Horizontal TableView/Horizontal TableView.xcodeproj"
+osx_image: xcode7.2
