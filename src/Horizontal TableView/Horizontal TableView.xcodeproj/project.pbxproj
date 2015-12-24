@@ -42,8 +42,6 @@
 		099C09F31C2ADF0400B66CC2 /* Horizontal TableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Horizontal TableViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		099C09F71C2ADF0400B66CC2 /* Horizontal_TableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Horizontal_TableViewTests.m; sourceTree = "<group>"; };
 		099C09F91C2ADF0400B66CC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		099C0A021C2ADF0400B66CC2 /* Horizontal_TableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Horizontal_TableViewUITests.m; sourceTree = "<group>"; };
-		099C0A041C2ADF0400B66CC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		099C0A101C2AE04600B66CC2 /* HorizontalTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalTableViewCell.h; sourceTree = "<group>"; };
 		099C0A111C2AE04600B66CC2 /* HorizontalTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalTableViewCell.m; sourceTree = "<group>"; };
 		099C0A121C2AE04600B66CC2 /* HorizontalTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HorizontalTableViewCell.xib; sourceTree = "<group>"; };
@@ -72,7 +70,6 @@
 			children = (
 				099C09DC1C2ADF0400B66CC2 /* Horizontal TableView */,
 				099C09F61C2ADF0400B66CC2 /* Horizontal TableViewTests */,
-				099C0A011C2ADF0400B66CC2 /* Horizontal TableViewUITests */,
 				099C09DB1C2ADF0400B66CC2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -120,15 +117,6 @@
 				099C09F91C2ADF0400B66CC2 /* Info.plist */,
 			);
 			path = "Horizontal TableViewTests";
-			sourceTree = "<group>";
-		};
-		099C0A011C2ADF0400B66CC2 /* Horizontal TableViewUITests */ = {
-			isa = PBXGroup;
-			children = (
-				099C0A021C2ADF0400B66CC2 /* Horizontal_TableViewUITests.m */,
-				099C0A041C2ADF0400B66CC2 /* Info.plist */,
-			);
-			path = "Horizontal TableViewUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
