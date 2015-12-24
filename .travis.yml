@@ -6,4 +6,4 @@ language: objective-c
 
  
 script:
-- xcodebuild build -scheme Horizontal TableView -destination 'platform=iOS Simulator,name=iPhone8,1,OS=9.2'
+- xcodebuild build -scheme "Horizontal TableView" -destination 'platform=iOS Simulator,name=iPhone8,1,OS=9.2'
