@@ -1,4 +1,4 @@
 language: objective-c
 
 
-xctool -project ./src/Horizontal\ TableView/Horizontal\ TableView.xcodeproj -scheme Horizontal\ TableView -sdk iphonesimulator9.2 build
+xctool -project ./src/Horizontal\ TableView/Horizontal\ TableView.xcodeproj -scheme Horizontal\ TableView -sdk iphonesimulator9.2 clean build 
