@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		095B4FBA1C2C177600164F84 /* Horizontal_TableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 095B4FB91C2C177600164F84 /* Horizontal_TableViewUITests.m */; };
 		099C09DF1C2ADF0400B66CC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 099C09DE1C2ADF0400B66CC2 /* main.m */; };
 		099C09E21C2ADF0400B66CC2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 099C09E11C2ADF0400B66CC2 /* AppDelegate.m */; };
 		099C09E51C2ADF0400B66CC2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 099C09E41C2ADF0400B66CC2 /* ViewController.m */; };
@@ -19,6 +20,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		095B4FBC1C2C177600164F84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 099C09D21C2ADF0300B66CC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 099C09D91C2ADF0400B66CC2;
+			remoteInfo = "Horizontal TableView";
+		};
 		099C09F41C2ADF0400B66CC2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 099C09D21C2ADF0300B66CC2 /* Project object */;
@@ -29,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		095B4FB71C2C177600164F84 /* Horizontal TableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Horizontal TableViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		095B4FB91C2C177600164F84 /* Horizontal_TableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Horizontal_TableViewUITests.m; sourceTree = "<group>"; };
+		095B4FBB1C2C177600164F84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		099C09DA1C2ADF0400B66CC2 /* Horizontal TableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Horizontal TableView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		099C09DE1C2ADF0400B66CC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		099C09E01C2ADF0400B66CC2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -48,6 +59,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		095B4FB41C2C177600164F84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		099C09D71C2ADF0400B66CC2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -65,11 +83,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		095B4FB81C2C177600164F84 /* Horizontal TableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				095B4FB91C2C177600164F84 /* Horizontal_TableViewUITests.m */,
+				095B4FBB1C2C177600164F84 /* Info.plist */,
+			);
+			path = "Horizontal TableViewUITests";
+			sourceTree = "<group>";
+		};
 		099C09D11C2ADF0300B66CC2 = {
 			isa = PBXGroup;
 			children = (
 				099C09DC1C2ADF0400B66CC2 /* Horizontal TableView */,
 				099C09F61C2ADF0400B66CC2 /* Horizontal TableViewTests */,
+				095B4FB81C2C177600164F84 /* Horizontal TableViewUITests */,
 				099C09DB1C2ADF0400B66CC2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -79,6 +107,7 @@
 			children = (
 				099C09DA1C2ADF0400B66CC2 /* Horizontal TableView.app */,
 				099C09F31C2ADF0400B66CC2 /* Horizontal TableViewTests.xctest */,
+				095B4FB71C2C177600164F84 /* Horizontal TableViewUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -122,6 +151,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		095B4FB61C2C177600164F84 /* Horizontal TableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 095B4FC01C2C177700164F84 /* Build configuration list for PBXNativeTarget "Horizontal TableViewUITests" */;
+			buildPhases = (
+				095B4FB31C2C177600164F84 /* Sources */,
+				095B4FB41C2C177600164F84 /* Frameworks */,
+				095B4FB51C2C177600164F84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				095B4FBD1C2C177600164F84 /* PBXTargetDependency */,
+			);
+			name = "Horizontal TableViewUITests";
+			productName = "Horizontal TableViewUITests";
+			productReference = 095B4FB71C2C177600164F84 /* Horizontal TableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		099C09D91C2ADF0400B66CC2 /* Horizontal TableView */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 099C0A071C2ADF0400B66CC2 /* Build configuration list for PBXNativeTarget "Horizontal TableView" */;
@@ -166,6 +213,10 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Nexi;
 				TargetAttributes = {
+					095B4FB61C2C177600164F84 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 099C09D91C2ADF0400B66CC2;
+					};
 					099C09D91C2ADF0400B66CC2 = {
 						CreatedOnToolsVersion = 7.2;
 					};
@@ -190,11 +241,19 @@
 			targets = (
 				099C09D91C2ADF0400B66CC2 /* Horizontal TableView */,
 				099C09F21C2ADF0400B66CC2 /* Horizontal TableViewTests */,
+				095B4FB61C2C177600164F84 /* Horizontal TableViewUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		095B4FB51C2C177600164F84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		099C09D81C2ADF0400B66CC2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -216,6 +275,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		095B4FB31C2C177600164F84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				095B4FBA1C2C177600164F84 /* Horizontal_TableViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		099C09D61C2ADF0400B66CC2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -238,6 +305,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		095B4FBD1C2C177600164F84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 099C09D91C2ADF0400B66CC2 /* Horizontal TableView */;
+			targetProxy = 095B4FBC1C2C177600164F84 /* PBXContainerItemProxy */;
+		};
 		099C09F51C2ADF0400B66CC2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 099C09D91C2ADF0400B66CC2 /* Horizontal TableView */;
@@ -265,6 +337,30 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		095B4FBE1C2C177700164F84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Horizontal TableViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "blyabtroi.Horizontal-TableViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Horizontal TableView";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		095B4FBF1C2C177700164F84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Horizontal TableViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "blyabtroi.Horizontal-TableViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Horizontal TableView";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
 		099C0A051C2ADF0400B66CC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -394,6 +490,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		095B4FC01C2C177700164F84 /* Build configuration list for PBXNativeTarget "Horizontal TableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				095B4FBE1C2C177700164F84 /* Debug */,
+				095B4FBF1C2C177700164F84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		099C09D51C2ADF0300B66CC2 /* Build configuration list for PBXProject "Horizontal TableView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
